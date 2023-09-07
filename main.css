@@ -12,6 +12,11 @@ body{
     background-color: var(--gray);
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
