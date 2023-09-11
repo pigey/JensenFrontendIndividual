@@ -20,17 +20,28 @@ a{
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 8vh;
     background-color: var(--darkgray);
 }
 .logo{
-    margin: 2% 2%;
-    width: 15%
+    margin-left: 5px;
+    height: 4vh;
+    width: 100%;
+    background-image: url("/images/logoV2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
-.logo img{
-    height: 90%;
-    width: 90%;
+.hamburgerMenu{
+    background-image: url("/images/menu-icon.svg");
+    width: 10%;
+    height: 4vh;
+    margin-right: 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+
 
 .content{
     display: flex;
@@ -81,28 +92,27 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(180deg, rgba(0,255,1,1) 8%, rgba(206,200,199,1) 100%);
     padding-top: 5vh;
+    background: linear-gradient(180deg, rgba(0, 255, 0, 0.5) 0%, rgba(206,200,199,1) 100%);
 }
 .profilBild{
-    height: 18vh;
-    width: 29%;
-    border-radius: 40px 40px 0px 0px;
-    overflow: hidden;
+    width: 40%;
 }
 #imgFilip{
     height: 100%;
     width: 100%;
+    border-radius: 15%;
 }
-#omMigText{
-    width: 70%;
-    border: 1px solid black;
-    border-radius: 10px;
-    height: 40vh;
-    background-color: var(--gray);
-    overflow: auto;
+.omMigText{
+    width: 90%;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
-#omMigText h1{
+.omMigText p{
+    font-size: large;
+
+}
+.omMigText h1{
     text-align: center;
 }
 
