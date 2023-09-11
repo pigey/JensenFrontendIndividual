@@ -21,8 +21,10 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 8vh;
-    background-color: var(--darkgray);
+    height: 60px; /* pixlar istället för vh för att det ska vara samma höjd ovadsätt */
+}
+.navOmMig{
+    background-color: rgba(0, 255, 0, 0.5);
 }
 .logo{
     margin-left: 5px;
@@ -103,32 +105,34 @@ a{
     width: 100%;
     border-radius: 15%;
 }
-.omMigText{
+.descText{
     width: 90%;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
 }
-.omMigText p{
+.descText p{
     font-size: large;
 
 }
-.omMigText h1{
+.descText h1{
     text-align: center;
 }
-
+/*
 @media only screen and (min-width: 768px){
-    /* Tablets */
+     Tablets 
     body{
-        /* temp för test */
+         temp för test 
         background-color: var(--green);
     }
 
 }
+
 @media only screen and (min-width: 1300px){
-    /* Desktop */
+     Desktop 
     body{
-        /* temp för test */
+         temp för test 
         background-color: var(--purple);
     }
 
 }
+*/
